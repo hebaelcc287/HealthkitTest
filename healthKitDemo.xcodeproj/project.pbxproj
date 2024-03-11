@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		453F0F082B9F51AC00897675 /* EnergyDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453F0F072B9F51AC00897675 /* EnergyDataManager.swift */; };
+		453F0F0A2B9F591A00897675 /* SleepDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453F0F092B9F591A00897675 /* SleepDataManager.swift */; };
+		453F0F0C2B9F7FC500897675 /* HeartDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453F0F0B2B9F7FC500897675 /* HeartDataManager.swift */; };
+		453F0F102B9F8F4800897675 /* WorkoutDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453F0F0F2B9F8F4800897675 /* WorkoutDataManager.swift */; };
 		45F7240D2B993E020026FA00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7240C2B993E020026FA00 /* AppDelegate.swift */; };
 		45F7240F2B993E030026FA00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7240E2B993E030026FA00 /* SceneDelegate.swift */; };
 		45F724112B993E030026FA00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F724102B993E030026FA00 /* ViewController.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		453F0F072B9F51AC00897675 /* EnergyDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyDataManager.swift; sourceTree = "<group>"; };
+		453F0F092B9F591A00897675 /* SleepDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDataManager.swift; sourceTree = "<group>"; };
+		453F0F0B2B9F7FC500897675 /* HeartDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartDataManager.swift; sourceTree = "<group>"; };
+		453F0F0F2B9F8F4800897675 /* WorkoutDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataManager.swift; sourceTree = "<group>"; };
 		45F724092B993E020026FA00 /* healthKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = healthKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F7240C2B993E020026FA00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F7240E2B993E030026FA00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +119,10 @@
 				45F7241A2B993E050026FA00 /* LaunchScreen.storyboard */,
 				45F7241D2B993E050026FA00 /* Info.plist */,
 				45F724152B993E030026FA00 /* healthKitDemo.xcdatamodeld */,
+				453F0F072B9F51AC00897675 /* EnergyDataManager.swift */,
+				453F0F092B9F591A00897675 /* SleepDataManager.swift */,
+				453F0F0B2B9F7FC500897675 /* HeartDataManager.swift */,
+				453F0F0F2B9F8F4800897675 /* WorkoutDataManager.swift */,
 			);
 			path = healthKitDemo;
 			sourceTree = "<group>";
@@ -263,8 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				453F0F082B9F51AC00897675 /* EnergyDataManager.swift in Sources */,
+				453F0F102B9F8F4800897675 /* WorkoutDataManager.swift in Sources */,
 				45F724112B993E030026FA00 /* ViewController.swift in Sources */,
 				45F724172B993E030026FA00 /* healthKitDemo.xcdatamodeld in Sources */,
+				453F0F0A2B9F591A00897675 /* SleepDataManager.swift in Sources */,
+				453F0F0C2B9F7FC500897675 /* HeartDataManager.swift in Sources */,
 				45F7240D2B993E020026FA00 /* AppDelegate.swift in Sources */,
 				45F7240F2B993E030026FA00 /* SceneDelegate.swift in Sources */,
 			);

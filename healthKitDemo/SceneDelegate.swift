@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  healthKitDemo
 //
-//  Created by Shimaa Elcc on 7.3.2024.
+//  Created by Heba Elcc on 7.3.2024.
 //
 
 import UIKit
